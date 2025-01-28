@@ -256,7 +256,7 @@ import {
           color: "cyan-text-gradient",
         }
       ],
-      image: parley,
+      image: yanga,
       source_code_link: "https://parley-acceptance.netlify.app/",
     },
     {
