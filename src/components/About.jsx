@@ -44,8 +44,8 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-      >
-        As a web design and web app enthusiast, I thrive in challenging environments that allow me to push my front-end skills to their limits. My passion for this field motivates me to constantly seek out new technology tools and techniques to apply to my projects. Recently, I have been exploring the realm of headless CMS and how it can be utilized in web development.
+      >      
+        As a passionate web designer and web app enthusiast, I thrive in dynamic and challenging environments that push the boundaries of my front-end development skills. My dedication to this field drives me to continuously explore emerging technologies, tools, and techniques to elevate my projects. Recently, I’ve delved into the exciting world of headless CMS, uncovering innovative ways to integrate it into modern web development.
       </motion.p>
 
       <div

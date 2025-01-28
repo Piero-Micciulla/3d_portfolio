@@ -50,6 +50,21 @@ import represent from "./represent.png";
 import dfns from "./dfns.png";
 import ibtt from "./ibtt.png";
 import yadea from "./yadea.png";
+import hildering from "./hildering.png";
+import gopaint from "./gopaint.png";
+import puntmaakelars from "./puntmaakelars.png";
+import msk from "./msk.png";
+import bvb from "./bvb.png";
+import madaster from "./madaster.png";
+import hely from "./hely.png";
+import elysee from "./elysee.png";
+import activite from "./activite.png";
+import oceandiva from "./oceandiva.png";
+import chocolatemakers from "./chocolatemakers.png";
+import mrshighbrow from "./mrshighbrow.png";
+import fietsenconcurrent from "./fietsenconcurrent.png";
+import yanga from "./yanga.png";
+import sevennorth from "./sevennorth.png";
 
 export {
   logo,
@@ -98,5 +113,20 @@ export {
   dfns,
   ibtt,
   yadea,
-  live
+  live,
+  hildering,
+  gopaint,
+  puntmaakelars,
+  msk,
+  bvb,
+  madaster,
+  hely,
+  elysee,
+  activite,
+  oceandiva,
+  chocolatemakers,
+  mrshighbrow,
+  fietsenconcurrent,
+  yanga,
+  sevennorth
 };
