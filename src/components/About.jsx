@@ -1,4 +1,5 @@
 import React from 'react';
+import { useLanguage } from "../i18n/LanguageContext"
 import {Tilt} from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -8,7 +9,6 @@ import {fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 const ServiceCard = ({index, title, icon}) => {
-
   return (
     <Tilt className="xs:w-[250px] w-full">
       <motion.div
@@ -34,18 +34,20 @@ const ServiceCard = ({index, title, icon}) => {
 };
 
 const About = () => {
+  const { t } = useLanguage();
+  
   return (
     <>
       <motion.div>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{t("introduction")}</p>
+        <h2 className={styles.sectionHeadText}>{t("overview")}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >      
-        As a passionate web designer and web app enthusiast, I thrive in dynamic and challenging environments that push the boundaries of my front-end development skills. My dedication to this field drives me to continuously explore emerging technologies, tools, and techniques to elevate my projects. Recently, I’ve delved into the exciting world of headless CMS, uncovering innovative ways to integrate it into modern web development.
+        {t("overviewText")}
       </motion.p>
 
       <div
