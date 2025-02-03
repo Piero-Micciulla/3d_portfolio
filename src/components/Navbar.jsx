@@ -69,7 +69,7 @@ const Navbar = () => {
               onClick={() => setToggle(!toggle)}
             />
 
-            <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl `} >
+            <div className={`${!toggle ? 'hidden' : 'block'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl `} >
               <ul className="list-none flex justify-end items-start flex-col gap-4">
                 {navLinks.map((link) => (
                   <li
@@ -88,24 +88,24 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-            </div>
 
-            <div className="flex gap-2 mt-4">
-              {["en", "es", "it"].map((lang) => (
-                <button
-                  key={lang}
-                  onClick={() => {
-                    setLanguage(lang);
-                    setToggle(false); 
-                  }}
-                  disabled={language === lang}
-                  className={`px-2 py-1 rounded ${
-                    language === lang ? "bg-white text-black" : "bg-secondary text-white"
-                  }`}
-                >
-                  {lang.toUpperCase()}
-                </button>
-              ))}
+              <div className="flex gap-2 mt-4">
+                {["en", "es", "it"].map((lang) => (
+                  <button
+                    key={lang}
+                    onClick={() => {
+                      setLanguage(lang);
+                      setToggle(false); 
+                    }}
+                    disabled={language === lang}
+                    className={`px-2 py-1 rounded ${
+                      language === lang ? "bg-white text-black" : "bg-secondary text-white"
+                    }`}
+                  >
+                    {lang.toUpperCase()}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>

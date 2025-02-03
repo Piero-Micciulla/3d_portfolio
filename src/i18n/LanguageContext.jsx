@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext, useState, useEffect } from "react";
 import en from "./en.json";
 import es from "./es.json";
 import it from "./it.json";
@@ -15,8 +15,34 @@ export const useLanguage = () => useContext(LanguageContext);
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState("en");
 
+  // Mapping country codes to language codes
+  const countryToLanguage = {
+    US: "en",
+    ES: "es",
+    IT: "it",
+    MX: "es", // You can also add mappings for other countries
+    // Add more mappings as needed
+  };
+
+  // Fetch user's IP-based country and set default language
+  const getDefaultLanguage = async () => {
+    try {
+      const response = await fetch("https://ipapi.co/json/");
+      const data = await response.json();
+      const countryCode = data.country;
+      const defaultLanguage = countryToLanguage[countryCode] || "en"; // Default to English if not found
+      setLanguage(defaultLanguage);
+    } catch (error) {
+      console.error("Error fetching user location:", error);
+      setLanguage("en"); // Fallback to English in case of error
+    }
+  };
+
+  useEffect(() => {
+    getDefaultLanguage(); // Fetch language based on IP on component mount
+  }, []);
+
   const t = (key) => {
-    // Check if the key exists in the current language JSON
     const keys = key.split('.');  // Split key like "experiences.Noos_Energy" into ["experiences", "Noos_Energy"]
     let result = translations[language];
 
