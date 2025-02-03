@@ -1,17 +1,79 @@
 import React from 'react';
-import {Tilt} from 'react-tilt';
+import { useLanguage } from "../i18n/LanguageContext";
+import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { live } from '../assets';
 import { SectionWrapper } from '../hoc';
-import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+import {
+  yanga,
+  parley,
+  koepel,
+  represent,
+  dfns,
+  ibtt,
+  yadea,
+  hildering,
+  sevennorth,
+  gopaint,
+  puntmaakelars,
+  msk,
+  bvb,
+  madaster,
+  hely,
+  elysee,
+  activite,
+  chocolatemakers,
+  oceandiva,
+  mrshighbrow,
+  fietsenconcurrent
+} from "../assets";
+
+const imageMap = {
+  yanga: yanga,
+  parley: parley,
+  koepel: koepel,
+  represent: represent,
+  dfns: dfns,
+  ibtt: ibtt,
+  yadea: yadea,
+  hildering: hildering,
+  sevennorth: sevennorth,
+  gopaint: gopaint,
+  puntmaakelars: puntmaakelars,
+  msk: msk,
+  bvb: bvb,
+  hely: hely,
+  elysee: elysee,
+  madaster: madaster,
+  activite: activite,
+  oceandiva: oceandiva,
+  chocolatemakers: chocolatemakers,
+  mrshighbrow: mrshighbrow,
+  fietsenconcurrent: fietsenconcurrent,
+};
+
+
+const sanitizeProjectName = (projectName) => {
+  return projectName.replace(/\s+/g, '_');  // Replaces spaces with underscores
+};
+
+const ProjectCard = ({ index, projectName }) => {
+  const { t } = useLanguage();
+  
+  const sanitizedProjectName = sanitizeProjectName(projectName);
+  const project = t(`projects.${sanitizedProjectName}`, { returnObjects: true });
+  const Image = imageMap[project.image];
+  
+  // Extracting project data from the translation
+  const { name, description, tags, image, source_code_link } = project;
+
   return (
     <motion.div 
-      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      // variants={fadeIn("up", "spring", index * 0.5, 0.75)}
     >
       <Tilt 
         options={{
@@ -23,11 +85,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
       >
         <a href={source_code_link} target="_blank" rel="noopener noreferrer">
           <div className="relative w-full h-[230px]">
-            <img 
-              src={image}
-              alt={name}
-              className="w-full h-full object-cover rounded-2xl"
-            />
+            {Image && <img src={Image} alt={name} className="w-full h-full object-cover rounded-2xl" />}
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
@@ -42,14 +100,14 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
               </div>
             </div>
           </div>
-          
+
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
-            {tags.map((tag) => (
+            {tags && Array.isArray(tags) && tags.map((tag) => (
               <p key={tag.name} className={`text-[14px] ${tag.color}`}>
                 #{tag.name}
               </p>
@@ -58,39 +116,42 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         </a>
       </Tilt>
     </motion.div>
-  )
+  );
 }
 
 const Works = () => {
+  const { t } = useLanguage();
+
   return (
     <>
       <motion.div
-        variants={textVariant()}
+        // variants={textVariant()}
       >
-        <p className={styles.sectionSubText}>My projects...</p>
-        <h2 className={styles.sectionHeadText}>Projects. </h2>
+        <p className={styles.sectionSubText}>{t("myProjects")}</p>
+        <h2 className={styles.sectionHeadText}>{t("projectsTitle")}</h2>
       </motion.div>
 
       <div className="w-full flex flex-col">
         <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
+          // variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          The following projects highlight my skills and experience through real-world applications of my work. Each project includes a concise overview, along with links to code repositories and live demos. These examples demonstrate my ability to tackle complex challenges, adapt to diverse technologies, and manage projects with efficiency and precision.
+          {t("projectsDescription")}
         </motion.p>
 
         <div className="mt-20 flex flex-wrap gap-7">
-          {projects.map((project, index) => (
+          {/* Dynamically map through the projects, similar to how Experience was mapped */}
+          {Object.keys(t('projects')).map((projectKey, index) => (
             <ProjectCard 
               key={`project-${index}`}
               index={index}
-              {...project}
+              projectName={projectKey}
             />
           ))}
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default SectionWrapper(Works, "works");

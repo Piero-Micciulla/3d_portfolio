@@ -5,9 +5,13 @@ import {styles} from '../styles'
 import {navLinks} from '../constants'
 import {logo, menu, close} from '../assets'
 
+import { useLanguage } from "../i18n/LanguageContext";
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const { setLanguage, language } = useLanguage(); 
+
   return (
     <nav
       className={`
@@ -42,6 +46,21 @@ const Navbar = () => {
             ))}
           </ul>
 
+          <div className="hidden sm:flex gap-2 ml-4">
+            {["en", "es", "it"].map((lang) => (
+              <button
+                key={lang}
+                onClick={() => setLanguage(lang)}
+                disabled={language === lang}
+                className={`px-2 py-1 rounded ${
+                  language === lang ? "bg-white text-black" : "bg-secondary text-white"
+                }`}
+              >
+                {lang.toUpperCase()}
+              </button>
+            ))}
+          </div>
+
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
               src={toggle ? close : menu}
@@ -50,7 +69,7 @@ const Navbar = () => {
               onClick={() => setToggle(!toggle)}
             />
 
-            <div className={`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl `} >
+            <div className={`${!toggle ? 'hidden' : 'block'} p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl `} >
               <ul className="list-none flex justify-end items-start flex-col gap-4">
                 {navLinks.map((link) => (
                   <li
@@ -69,6 +88,24 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
+
+              <div className="flex gap-2 mt-4">
+                {["en", "es", "it"].map((lang) => (
+                  <button
+                    key={lang}
+                    onClick={() => {
+                      setLanguage(lang);
+                      setToggle(false); 
+                    }}
+                    disabled={language === lang}
+                    className={`px-2 py-1 rounded ${
+                      language === lang ? "bg-white text-black" : "bg-secondary text-white"
+                    }`}
+                  >
+                    {lang.toUpperCase()}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>

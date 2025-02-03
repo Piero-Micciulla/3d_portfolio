@@ -1,0 +1,710 @@
+{
+    "greeting": "Hola, soy",
+    "selfIntroduction": "Un desarrollador front-end integral enfocado en interfaces de usuario y aplicaciones web",
+    "introduction": "Introducción",
+    "overview": "Resumen",
+    "overviewText": "Como un apasionado del diseño web y entusiasta de las aplicaciones web, prospero en entornos dinámicos y desafiantes que ponen a prueba mis habilidades en el desarrollo front-end. Mi dedicación a este campo me impulsa a explorar continuamente tecnologías emergentes, herramientas y técnicas para mejorar mis proyectos. Recientemente, me he adentrado en el emocionante mundo de los CMS headless, descubriendo formas innovadoras de integrarlos en el desarrollo web moderno.",
+    "theRoadSoFar": "El camino hasta ahora...",
+    "workExperience": "Experiencia laboral",
+    "Experience": "Experiencia",
+    "experiences": {
+        "Noos_Energy": {
+            "icon": "nooseenergy",
+            "role": "Desarrollador Frontend",
+            "date": "Febrero 2021 - Febrero 2021",
+            "iconBg": "#383E56",
+            "points": [
+                "Trabajé en el desarrollo front-end de una plataforma para visualizar datos energéticos complejos",
+                "Colaboré con un equipo de análisis de datos para integrar gráficos generados en Python en una interfaz responsiva",
+                "Diseñé una interfaz de usuario limpia e intuitiva utilizando JavaScript y SCSS, asegurando que los datos fueran fácilmente interpretables para los usuarios",
+                "Encontré soluciones de código basadas en las indicaciones de la gerencia"
+            ]
+        },
+        "SyncVR_Medical": {
+            "icon": "syncvr",
+            "role": "Ingeniero de Software",
+            "date": "Marzo 2021 - Abril 2021",
+            "iconBg": "#E6DEDD",
+            "points": [
+                "Desarrollé una plataforma que permite a los hospitales descargar juegos de realidad virtual para la rehabilitación física",
+                "Construí una interfaz front-end usando Angular e integrándola con Firebase para interacciones seguras y eficientes",
+                "Me enfoqué en crear una experiencia de usuario intuitiva para apoyar a los profesionales de la salud en la entrega de soluciones de rehabilitación atractivas",
+                "Actualicé la documentación existente basada en mi flujo de trabajo"
+            ]
+        },
+        "Dantelabs": {
+            "icon": "dantelabs",
+            "role": "Desarrollador de Temas para Shopify",
+            "date": "Abril 2021 - Junio 2021",
+            "iconBg": "#383E56",
+            "points": [
+                "Creé un sitio web de comercio electrónico totalmente personalizado en Shopify para una empresa de pruebas genómicas",
+                "Desarrollé una experiencia de compra fluida y fácil de usar, adaptada a las especificaciones del cliente",
+                "Integré funcionalidades avanzadas para admitir la personalización de productos y el procesamiento de datos, aumentando el compromiso y la satisfacción del cliente"
+            ]
+        },
+        "Endeavour": {
+            "icon": "endeavour",
+            "role": "Desarrollador Frontend",
+            "date": "Julio 2021 - Presente",
+            "iconBg": "#E6DEDD",
+            "points": [
+                "Entregué sitios web y plataformas de comercio electrónico de alta calidad y responsivos para diversos clientes en una agencia web dinámica",
+                "Me especialicé en diseño front-end y desarrollo de interfaces web utilizando tecnologías como React, GatsbyJS y Twig",
+                "Desarrollé soluciones headless para Shopify y WordPress para mejorar el rendimiento y la experiencia del usuario",
+                "Integré PHP y GraphQL para construir soluciones web escalables, eficientes y visualmente impactantes",
+                "Aproveché mi experiencia técnica para crear experiencias de usuario fluidas adaptadas a las necesidades específicas de los clientes"
+            ]
+        }
+    },
+    "myProjects": "Mis proyectos...",
+    "projectsTitle": "Proyectos.",
+    "projectsDescription": "Los siguientes proyectos destacan mis habilidades y experiencia a través de aplicaciones del mundo real en las empresas de las que he formado parte. Cada proyecto muestra una visión general concisa, junto con el enlace al sitio web en vivo. Estos ejemplos demuestran mi capacidad para abordar desafíos complejos, adaptarme a diversas tecnologías y gestionar proyectos con eficiencia y precisión, todo mientras contribuyo al crecimiento y éxito de los equipos y empresas con los que he trabajado.",
+    "projects": [
+        {
+          "name": "Yanga",
+          "description":
+            "Sitio web headless para la marca internacional Yanga Sportswear.",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "headless",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Custom API",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "prismic",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "Mailchip",
+              "color": "cyan-text-gradient"
+            }
+          ],
+          "image": "yanga",
+          "source_code_link": "https://parley-acceptance.netlify.app/"
+        },
+        {
+          "name": "Parley",
+          "description":
+            "Sitio web headless que muestra la comunicación con clientes a través de Mensajería y Chat para la empresa 'Parley'.",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "headless",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "gatsby",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "prismic",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "netlify",
+              "color": "cyan-text-gradient"
+            }
+          ],
+          "image": "parley",
+          "source_code_link": "https://parley-acceptance.netlify.app/"
+        },
+        {
+          "name": "Koepel",
+          "description":
+            "Sitio web elegante y moderno para la asociación 'De Koepel', dedicada a transformar una antigua prisión en un espacio innovador e inspirador.",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "headless",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "gatsby",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "koepel",
+          "source_code_link": "https://dekoepel.com/"
+        },
+        {
+          "name": "Represent",
+          "description":
+            "Sitio web de comercio electrónico headless para una marca de ropa.",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "headless",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "gatsby",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "shopify",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "netlify",
+              "color": "cyan-text-gradient"
+            }
+          ],
+          "image": "represent",
+          "source_code_link": "https://blissful-pare-055cc5.netlify.app/"
+        },
+        {
+          "name": "DFNS",
+          "description":
+            "Tienda en línea de Shopify para DFNS Sportswear.",
+          "tags": [
+            {
+              "name": "shopify",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "css",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "dfns",
+          "source_code_link": "https://dfns.com/"
+        },
+        {
+          "name": "IBTT",
+          "description":
+            "Sitio web de comercio electrónico personalizado en WordPress para la marca de juguetes holandesa International Bon Ton Toys.",
+          "tags": [
+            {
+              "name": "wordpress",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "css",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "twig",
+              "color": "cyan-text-gradient"
+            }
+          ],
+          "image": "ibtt",
+          "source_code_link": "https://bontontoys.com/"
+        },
+        {
+          "name": "Moteo Nederland",
+          "description":
+            "Conjunto de sitios web en Shopify para la marca de scooters eléctricos Moteo (con Yadea destacado).",
+          "tags": [
+            {
+              "name": "shopify",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "css",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "yadea",
+          "source_code_link": "https://www.yadea-scooters.nl/"
+        },
+        {
+          "name": "Hildering",
+          "description":
+            "Sitio web de comercio electrónico para la marca holandesa Hildering.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "react",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "milliesearch",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "hildering",
+          "source_code_link": "https://hildering.acc.brewwwers.pwstaging.tech/"
+        },
+        {
+          "name": "Seven North",
+          "description":
+            "Plataforma de reservas para el restaurante holandés Seven North.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "multisite",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "sevennorth",
+          "source_code_link": "https://sevennorthrestaurant.com/en/"
+        },
+        {
+          "name": "GoPaint",
+          "description":
+            "Sitio web de comercio electrónico para la marca holandesa GoPaint.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "react",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "milliesearch",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "gopaint",
+          "source_code_link": "https://gopaint.acc.brewwwers.pwstaging.tech/"
+        },
+        {
+          "name": "Punt Makelaars",
+          "description":
+            "Sitio web de comercio electrónico para la empresa inmobiliaria holandesa Punt Makelaars.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "instantsearch",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "puntmaakelars",
+          "source_code_link": "https://puntmakelaars.nl/"
+        },
+        {
+          "name": "MSK",
+          "description":
+            "Sitio web de comercio electrónico para la marca holandesa MSK.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Woocommerce",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "instantsearch",
+              "color": "blue-text-gradient"
+            }
+          ],
+          "image": "msk",
+          "source_code_link": "https://msk.nl/"
+        },
+        {
+          "name": "Beurs Van Berlage",
+          "description":
+            "Sitio web de contenido para el ayuntamiento de Haarlem (Países Bajos).",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "React",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "orange-text-gradient"
+            }
+          ],
+          "image": "bvb",
+          "source_code_link": "https://beursvanberlage.com/"
+        },
+        {
+          "name": "Madaster",
+          "description":
+            "Sitio web de contenido para la marca holandesa Madaster, líder en el mercado de materiales circulares.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "madaster",
+          "source_code_link": "https://madaster.com/"
+        },
+        {
+          "name": "Hely",
+          "description":
+            "Sitio web de contenido para la marca holandesa Hely, que facilita la movilidad compartida con bicicletas y coches (eléctricos).",
+          "tags": [
+            {
+              "name": "hubspotCMS",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Hubl",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "HTML",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "hely",
+          "source_code_link": "https://hely.com/en/"
+        },
+        {
+          "name": "Elysee",
+          "description":
+            "Sitio web de comercio electrónico para la marca holandesa Elysee, líder en prácticas de detallado.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "instantsearch",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "elysee",
+          "source_code_link": "https://elysee-dental.nl/"
+        },
+        {
+          "name": "ActiVite",
+          "description":
+            "Sitio web de comercio electrónico para la empresa de cuidado de personas mayores ActiVite.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "Woocommerce",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "activite",
+          "source_code_link": "https://activite.acc.brewwwers.pwstaging.tech/"
+        },
+        {
+          "name": "Ocean Diva",
+          "description":
+            "Sitio web de comercio electrónico para la marca Ocean Diva, líder en el mercado de organización de eventos sobre el agua.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "instantsearch",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "googlemaps",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "oceandiva",
+          "source_code_link": "https://oceandiva.eu/"
+        },
+        {
+          "name": "Chocolate Makers",
+          "description":
+            "Sitio web de comercio electrónico para la marca Chocolate Makers, líder en la producción de chocolate orgánico.",
+          "tags": [
+            {
+              "name": "php",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "wordpress",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "typescript",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "CustomAPI",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Twig",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "Headless",
+              "color": "green-text-gradient"
+            }
+          ],
+          "image": "chocolatemakers",
+          "source_code_link": "https://chocolatemakers.nl/en/"
+        },
+        {
+          "name": "Mrs Highbrow",
+          "description":
+            "Sitio web de Shopify para la marca holandesa Mrs Highbrow, líder en el mercado de belleza.",
+          "tags": [
+            {
+              "name": "shopify",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "css",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "mrshighbrow",
+          "source_code_link": "https://mrshighbrowprofessional.com/en"
+        },
+        {
+          "name": "FietsenConcurrent",
+          "description":
+            "Sitio web de Shopify para la marca holandesa FietsenConcurrent, alquiler de bicicletas y bicicletas eléctricas en Ámsterdam.",
+          "tags": [
+            {
+              "name": "shopify",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "html",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "css",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "js",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "Custom API",
+              "color": "blue-text-gradient"
+            }
+          ],
+          "image": "fietsenconcurrent",
+          "source_code_link": "https://fietsenconcurrent.nl/"
+        }
+    ],
+    "getInTouch": "Ponerse en contacto",
+    "contact": "Contacto.",
+    "yourName": "Tu nombre",
+    "yourEmail": "Tu correo electrónico",
+    "yourMessage": "Tu mensaje",
+    "whatsYourName": "¿Cuál es tu nombre?",
+    "whatsYourEmail" : "¿Cuál es tu correo electrónico?",
+    "whatDoYouWantToSay" : "¿Qué quieres decir?",
+    "send": "Enviar",
+    "sending": "Enviando..."
+}
+
+  
