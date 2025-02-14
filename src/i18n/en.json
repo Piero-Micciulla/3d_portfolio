@@ -1,9 +1,9 @@
 {
     "greeting": "Hi, I am",
-    "selfIntroduction": "An all-rounder front-end developer focused on user interfaces and web applications",
+    "selfIntroduction": "An all-rounder full-stack developer focused on user interfaces and web applications",
     "introduction": "introduction",
     "overview": "Overview",
-    "overviewText": "As a passionate web designer and web app enthusiast, I thrive in dynamic and challenging environments that push the boundaries of my front-end development skills. My dedication to this field drives me to continuously explore emerging technologies, tools, and techniques to elevate my projects. Recently, I’ve delved into the exciting world of headless CMS, uncovering innovative ways to integrate it into modern web development.",
+    "overviewText": "As a passionate full-stack developer and web app enthusiast, I thrive in dynamic and challenging environments that push the boundaries of my front-end and back-end development skills. My dedication to this field drives me to continuously explore emerging technologies, tools, and techniques to elevate my projects. Recently, I’ve been delving into Python and Flask, focusing on authentication systems and secure API development, while also uncovering innovative ways to integrate headless CMS into modern web applications.",
     "theRoadSoFar": "The road so far...",
     "workExperience": "Work experience.",
     "Experience": "Experience",
@@ -62,6 +62,51 @@
     "projectsDescription": "The following projects highlight my skills and experience through real-world applications of my work at the companies I've been part of. Each project showcases a concise overview, along with the live websites link. These examples demonstrate my ability to tackle complex challenges, adapt to diverse technologies, and manage projects with efficiency and precision, all while contributing to the growth and success of the teams and companies I’ve worked for.",
     "projects": [
         {
+          "name": "Taskflow",
+          "description":
+            "Full stack application for teams and projects management. (acceptance environment)",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "python",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Custom API",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "flask",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "JWT",
+              "color": "cyan-text-gradient"
+            },
+            {
+              "name": "SQLAlchemy",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Cloudinary",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Render",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Netlify",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "taskflow",
+          "source_code_link": "https://project-management-dashboard-render.netlify.app/login"
+        },
+        {
           "name": "Yanga",
           "description":
             "Headless website for the international brandYanga Sportswear.",
@@ -88,7 +133,7 @@
             }
           ],
           "image": "yanga",
-          "source_code_link": "https://parley-acceptance.netlify.app/"
+          "source_code_link": "https://yangasportswater.com/en-us/#welcome"
         },
         {
           "name": "Parley",

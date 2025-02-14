@@ -1,9 +1,9 @@
 {
     "greeting": "Ciao, sono",
-    "selfIntroduction": "Un sviluppatore front-end polivalente concentrato su interfacce utente e applicazioni web",
+    "selfIntroduction": "Un sviluppatore full-stack polivalente concentrato su interfacce utente e applicazioni web",
     "introduction": "Introduzione",
     "overview": "Panoramica",
-    "overviewText": "Come appassionato web designer ed entusiasta di web app, mi trovo a mio agio in ambienti dinamici che spingono i confini delle mie abilità nello sviluppo front-end. La mia dedizione a questo campo mi spinge a esplorare continuamente tecnologie, strumenti e tecniche emergenti per elevare i miei progetti. Recentemente, mi sono immerso nel mondo entusiasmante dei CMS headless, scoprendo modi innovativi per integrarli nello sviluppo web moderno.",
+    "overviewText": "Come sviluppatore full-stack appassionato ed entusiasta delle applicazioni web, mi trovo a mio agio in ambienti dinamici e stimolanti che spingono al massimo le mie competenze sia di front-end che di back-end. La mia dedizione a questo settore mi motiva a esplorare continuamente nuove tecnologie, strumenti e tecniche per migliorare i miei progetti. Di recente, mi sono immerso nel mondo di Python e Flask, concentrandomi su sistemi di autenticazione e sviluppo sicuro di API, oltre a scoprire modi innovativi per integrare headless CMS nelle applicazioni web moderne.",
     "theRoadSoFar": "Il percorso finora...",
     "workExperience": "Esperienza lavorativa",
     "Experience": "Esperienza",
@@ -61,6 +61,51 @@
     "projectsTitle": "Progetti.",
     "projectsDescription": "I seguenti progetti evidenziano le mie competenze ed esperienze attraverso applicazioni reali del mio lavoro nelle aziende di cui ho fatto parte. Ogni progetto presenta una panoramica concisa, insieme al link dei siti web live. Questi esempi dimostrano la mia capacità di affrontare sfide complesse, adattarmi a tecnologie diverse e gestire progetti con efficienza e precisione, contribuendo al contempo alla crescita ed al successo dei team e delle aziende con cui ho collaborato.",
     "projects": [
+        {
+          "name": "Taskflow",
+          "description":
+            "Applicazione full stack per la gestione di team e progetti. (acceptance environment)",
+          "tags": [
+            {
+              "name": "react",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "python",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Custom API",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "flask",
+              "color": "pink-text-gradient"
+            },
+            {
+              "name": "JWT",
+              "color": "cyan-text-gradient"
+            },
+            {
+              "name": "SQLAlchemy",
+              "color": "blue-text-gradient"
+            },
+            {
+              "name": "Cloudinary",
+              "color": "green-text-gradient"
+            },
+            {
+              "name": "Render",
+              "color": "orange-text-gradient"
+            },
+            {
+              "name": "Netlify",
+              "color": "pink-text-gradient"
+            }
+          ],
+          "image": "taskflow",
+          "source_code_link": "https://project-management-dashboard-render.netlify.app/login"
+        },
         {
           "name": "Yanga",
           "description":

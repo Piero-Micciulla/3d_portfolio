@@ -55,7 +55,11 @@ import {
     mrshighbrow,
     fietsenconcurrent,
     yanga,
-    sevennorth
+    sevennorth,
+    python,
+    Flask,
+    JWT,
+    netlify
   } from "../assets";
   
   export const navLinks = [
@@ -98,14 +102,6 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -118,6 +114,22 @@ import {
       icon: reactjs,
     },
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Flask",
+      icon: Flask,
+    },
+    {
+      name: "JWT",
+      icon: JWT,
+    },
+    {
+      name: "Netlify",
+      icon: netlify,
+    },
+    {
       name: "GatsbyJS",
       icon: gatsby,
     },
@@ -128,14 +140,6 @@ import {
     {
       name: "WordPress",
       icon: wordpress,
-    },
-    {
-      name: "Twig",
-      icon: twig,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",

@@ -29,7 +29,8 @@ import {
   chocolatemakers,
   oceandiva,
   mrshighbrow,
-  fietsenconcurrent
+  fietsenconcurrent,
+  taskflow
 } from "../assets";
 
 const imageMap = {
@@ -54,6 +55,7 @@ const imageMap = {
   chocolatemakers: chocolatemakers,
   mrshighbrow: mrshighbrow,
   fietsenconcurrent: fietsenconcurrent,
+  taskflow: taskflow,
 };
 
 

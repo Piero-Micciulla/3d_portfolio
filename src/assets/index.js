@@ -29,6 +29,10 @@ import threejs from "./tech/threejs.svg";
 import twig from "./tech/twig.png";
 import wordpress from "./tech/wordpress.png";
 import gatsby from "./tech/gatsby.png";
+import Flask from "./tech/Flask.png";
+import JWT from "./tech/JWT.png";
+import python from "./tech/python.png";
+import netlify from "./tech/netlify.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -65,6 +69,7 @@ import mrshighbrow from "./mrshighbrow.png";
 import fietsenconcurrent from "./fietsenconcurrent.png";
 import yanga from "./yanga.png";
 import sevennorth from "./sevennorth.png";
+import taskflow from "./taskflow.png";
 
 export {
   logo,
@@ -128,5 +133,10 @@ export {
   mrshighbrow,
   fietsenconcurrent,
   yanga,
-  sevennorth
+  sevennorth,
+  taskflow,
+  netlify,
+  Flask,
+  python,
+  JWT
 };
